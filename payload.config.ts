@@ -31,6 +31,15 @@ export default buildConfig({
 		importMap: {
 			baseDir: path.resolve(dirname),
 		},
+		meta: {
+			icons: [
+				{
+					rel: 'icon',
+					type: 'image/x-icon',
+					url: './app/favicon.ico',
+				},
+			],
+		},
 	},
 	onInit: async (payload) => {
 		Object.values(payload.collections).forEach((collection) => {

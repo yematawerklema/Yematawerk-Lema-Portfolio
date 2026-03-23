@@ -24,7 +24,7 @@ const michroma = Michroma({
 export const metadata: Metadata = {
 	title: "Yematawerk Lema",
 	description: "Personal portfolio of Yematawerk Lema. A Digital Marketer, Graphic Designer and Youtube Strategist.",
-	icons: '/'
+	icons: '../favicon.ico'
 };
 
 export default async function RootLayout({
